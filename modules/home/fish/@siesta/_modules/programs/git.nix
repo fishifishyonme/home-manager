@@ -12,13 +12,13 @@
   programs.git = {
     enable = true;
     signing = {
-      key = "10928E38A063FB75";
+      key = "F74B0660FE73D27A";
       signByDefault = true;
     };
     settings = {
       user = {
         name = config.home.username;
-        email = "kiokunee@gmail.com";
+        email = "103873667+fishifishyonme@users.noreply.github.com";
       };
       safe.directory = "/etc/nixos";
       init = {
