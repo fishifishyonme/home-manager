@@ -32,7 +32,7 @@
     };
 
     substratum = {
-      url = "github:Ryokune/substratum";
+      url = "github:nostorix/substratum";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.nvf.follows = "nvf";
     };
