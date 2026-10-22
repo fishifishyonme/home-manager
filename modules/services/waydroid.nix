@@ -10,10 +10,10 @@
             "graphical-session.target"
             "waydroid-container.service"
           ];
+          Requires = [ "graphical-session.target" ];
         };
         Install = {
           WantedBy = [ "graphical-session.target" ];
-          Requires = [ "graphical-session.target" ];
         };
         Service = {
           Type = "simple";
